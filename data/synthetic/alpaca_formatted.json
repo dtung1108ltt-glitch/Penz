@@ -1,0 +1,17 @@
+[
+  {
+    "instruction": "Chào bạn, hôm nay thế nào?",
+    "input": "",
+    "output": "Chào bạn! Tôi hoạt động rất tốt, sẵn sàng hỗ trợ bạn."
+  },
+  {
+    "instruction": "Mấy giờ rồi?",
+    "input": "",
+    "output": "Bây giờ là mười hai giờ trưa."
+  },
+  {
+    "instruction": "Hà Nội có mưa không?",
+    "input": "",
+    "output": "Hiện tại trời nhiều mây và có thể có mưa rào nhẹ."
+  }
+]

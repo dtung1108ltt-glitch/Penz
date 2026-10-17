@@ -1,0 +1,35 @@
+# ==============================================================================
+# Voice AI Production System - Dependencies
+# ==============================================================================
+
+# Core DSP & Audio Hardware (Non-blocking I/O)
+sounddevice>=0.4.6
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Inference Engines (Lightweight & Low-Latency)
+faster-whisper>=1.0.0
+edge-tts>=6.1.12
+ollama>=0.2.0
+openai>=1.12.0
+requests>=2.31.0
+
+# Configuration, Logging & Orchestration
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+python-dotenv>=1.0.0
+rich>=13.7.0
+
+# Training & ML Ops (DL Fine-tuning & Feature Extraction)
+# Note: Install with CUDA support for GPU acceleration (e.g. pip install torch --index-url https://download.pytorch.org/whl/cu121)
+torch>=2.1.0
+torchaudio>=2.1.0
+transformers>=4.38.0
+peft>=0.9.0
+datasets>=2.18.0
+accelerate>=0.27.0
+jiwer>=3.0.3
+
+# Testing & Quality Assurance
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
